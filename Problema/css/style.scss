@@ -1,3 +1,224 @@
+@mixin cajas	{
+	height:100px;
+	width:170px;
+	float: left;
+	color: #574245;
+	font-size: 15px;
+	margin-top: 1%;
+}
+$font-stack: Roboto, sans-serif;
+$primary-color: #ffffff;
+$font-size-t: 30px;
+$text-aling-center: center;
+$h1: black;
+$padding: 7% 0%;
+
+body {
+  font: 100% $font-stack;
+  color: $primary-color;
+  .header {
+	font-size: $font-size-t;
+	line-height: 130%;
+	margin-top: 0%;
+	}
+	.azul {
+		background-color: #2c3e50;
+		padding: $padding;
+		.progress {
+			height: 10px;
+		}
+	}
+	#verde {
+		background-color: #27ad60;
+		margin-top: -20px;
+		padding: $padding;
+		.bg-color {
+			background-color: #2c3e50;
+			width: 60px;
+			margin-left: 22%;
+			margin-top: 5%;
+			.bg-icon {
+			background: url("../img/icon-bg.png");
+			width: 120px;
+			height: 140px;
+			padding-left: 7px;
+			}
+		}
+		.hoverable:hover {
+			background-color: #2a7257;
+			-moz-transform: scale(1.2) rotate(360deg);
+			-webkit-transform: scale(1.2) rotate(360deg);
+			-o-transform: scale(1.2) rotate(360deg);
+			-ms-transform: scale(1.2) rotate(360deg);
+			transform: scale(1.2) rotate(360deg);
+		}
+		// prblemas cn el boton.btn que no se mueve {
+			// display: block;
+		// }
+		.fa {
+			font-size: 15px;
+			padding-left: 2%;
+		}
+	}
+	#precios {
+		.abajo {
+			margin-top: 5%;
+			.s3:hover {
+				-moz-transform: scale(1.1) rotate(3600deg) translateX(0px) translateY(-20px);
+				-webkit-transform: scale(1.1) rotate(3600deg) translateX(0px) translateY(-20px);
+				-o-transform: scale(1.1) rotate(3600deg) translateX(0px) translateY(-20px);
+				-ms-transform: scale(1.1) rotate(3600deg) translateX(0px) translateY(-20px);
+				transform: scale(1.1) rotate(3600deg) translateX(0px) translateY(-20px);
+			}
+		}
+		.bordered:hover {
+			border-color: orange;
+			td {
+				border-color: orange;
+			}
+		}
+		table {
+			border: 1px solid green;
+			td {
+				border: 1px solid green;
+			}
+			span {
+			font-size: 50px;
+			}
+		}
+		.verde {
+			background-color: #27ad60;
+		}
+		tr:hover {
+			background-color: #8f5f38;
+		}
+		.trans {
+			background-color: white;
+			color: black;
+			&:hover {
+				background-color: transparent;
+				color: white;
+			}
+		}
+	}
+}
+.nav-wrapper {
+	background-color: #27ad60;
+}
 .parallax-container {
-      height: 200px;
-    }
+  width:100%;
+  height:400px;
+}
+#paleta-colores {
+	h1 {
+		color: $h1;
+	}
+	.container {
+		padding-left: 5%;
+	}
+}
+// ?
+.ca1 {
+	@include cajas;
+	background-color: #69e2d7;
+}
+.ca2 {
+	@include cajas;
+	background-color: #A7DBDB;
+}
+.ca3 {
+	@include cajas;
+	background-color: #E0E4CC;
+}
+.ca4 {
+	@include cajas;
+	background-color: #F38630;
+}
+.ca5 {
+	@include cajas;
+	background-color: #FA6900;
+}
+.ca6 {
+	@include cajas;
+	background-color: #E94C6F;
+}
+
+.ca7 {
+	@include cajas;
+	background-color: #542733;
+	color: white;
+}
+.ca8 {
+	@include cajas;
+	background-color: #5A6A62;
+}
+.ca9 {
+	@include cajas;
+	background-color: #C6D5CD;
+}
+.ca10 {
+	@include cajas;
+	background-color: #FDF200;
+}
+.ca11 {
+	@include cajas;
+	background-color: #DB3340;
+}
+.ca12 {
+	@include cajas;
+	background-color: #E8B71A;
+}
+.ca13 {
+	@include cajas;
+	background-color: #F7EAC8;
+}
+.ca14 {
+	@include cajas;
+	background-color: #1FDA9A;
+}
+.ca15 {
+	@include cajas;
+	background-color: #28ABE3;
+}
+.ca16 {
+	@include cajas;
+	background-color: #588C73;
+}
+.ca17 {
+	@include cajas;
+	background-color: #F2E394;
+}
+.ca18 {
+	@include cajas;
+	background-color: #F2AE72;
+}
+.ca19 {
+	@include cajas;
+	background-color: #D96459;
+}
+.ca20 {
+	@include cajas;
+	background-color: #8C4646;
+}
+.ca21 {
+	@include cajas;
+	background-color: #D0C91A;
+}
+.ca22 {
+	@include cajas;
+	background-color: #85C4B9;
+}
+.ca23 {
+	@include cajas;
+	background-color: #008BBA;
+}
+.ca24 {
+	@include cajas;
+	background-color: #DF514C;
+}
+.ca25 {
+	@include cajas;
+	background-color: #DC403B;
+}
+// preguntar a blanca en clases up
+
