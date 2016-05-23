@@ -1,0 +1,41 @@
+#precios {
+	.abajo {
+		margin-top: 5%;
+		.s3:hover {
+			-moz-transform: scale(1.1) rotate(3600deg) translateX(0px) translateY(-20px);
+			-webkit-transform: scale(1.1) rotate(3600deg) translateX(0px) translateY(-20px);
+			-o-transform: scale(1.1) rotate(3600deg) translateX(0px) translateY(-20px);
+			-ms-transform: scale(1.1) rotate(3600deg) translateX(0px) translateY(-20px);
+			transform: scale(1.1) rotate(3600deg) translateX(0px) translateY(-20px);
+		}
+	}
+	.bordered:hover {
+		border-color: orange;
+		td {
+			border-color: orange;
+		}
+	}
+	table {
+		border: 1px solid green;
+		td {
+			border: 1px solid green;
+		}
+		span {
+		font-size: 50px;
+		}
+	}
+	.verde {
+		background-color: #27ad60;
+	}
+	tr:hover {
+		background-color: #8f5f38;
+	}
+	.trans {
+		background-color: white;
+		color: black;
+		&:hover {
+			background-color: transparent;
+			color: white;
+		}
+	}
+}

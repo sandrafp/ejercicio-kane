@@ -1,0 +1,110 @@
+#paleta-colores {
+	h1 {
+		color: $h1;
+	}
+	.container {
+		padding-left: 5%;
+	}
+}
+.ca1 {
+	@include cajas;
+	background-color: #69e2d7;
+}
+.ca2 {
+	@include cajas;
+	background-color: #A7DBDB;
+}
+.ca3 {
+	@include cajas;
+	background-color: #E0E4CC;
+}
+.ca4 {
+	@include cajas;
+	background-color: #F38630;
+}
+.ca5 {
+	@include cajas;
+	background-color: #FA6900;
+}
+.ca6 {
+	@include cajas;
+	background-color: #E94C6F;
+}
+
+.ca7 {
+	@include cajas;
+	background-color: #542733;
+	color: white;
+}
+.ca8 {
+	@include cajas;
+	background-color: #5A6A62;
+}
+.ca9 {
+	@include cajas;
+	background-color: #C6D5CD;
+}
+.ca10 {
+	@include cajas;
+	background-color: #FDF200;
+}
+.ca11 {
+	@include cajas;
+	background-color: #DB3340;
+}
+.ca12 {
+	@include cajas;
+	background-color: #E8B71A;
+}
+.ca13 {
+	@include cajas;
+	background-color: #F7EAC8;
+}
+.ca14 {
+	@include cajas;
+	background-color: #1FDA9A;
+}
+.ca15 {
+	@include cajas;
+	background-color: #28ABE3;
+}
+.ca16 {
+	@include cajas;
+	background-color: #588C73;
+}
+.ca17 {
+	@include cajas;
+	background-color: #F2E394;
+}
+.ca18 {
+	@include cajas;
+	background-color: #F2AE72;
+}
+.ca19 {
+	@include cajas;
+	background-color: #D96459;
+}
+.ca20 {
+	@include cajas;
+	background-color: #8C4646;
+}
+.ca21 {
+	@include cajas;
+	background-color: #D0C91A;
+}
+.ca22 {
+	@include cajas;
+	background-color: #85C4B9;
+}
+.ca23 {
+	@include cajas;
+	background-color: #008BBA;
+}
+.ca24 {
+	@include cajas;
+	background-color: #DF514C;
+}
+.ca25 {
+	@include cajas;
+	background-color: #DC403B;
+}

@@ -1,2 +1,9 @@
 @import "materialize-src/sass/materialize";
-@import "style.scss"
+@import "sass/helpers/_mixins.scss";
+@import "sass/helpers/_variables.scss";
+@import "sass/layout/_precios.scss";
+@import "sass/layout/_paleta-colores.scss";
+@import "sass/layout/_azul.scss";
+@import "sass/layout/_verde.scss";
+@import "sass/layout/_footer.scss";
+@import "sass/basic/_style.scss";
