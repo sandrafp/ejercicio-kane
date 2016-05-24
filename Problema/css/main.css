@@ -6469,4 +6469,12 @@ textarea {
   font-size: 85px;
   margin-top: 10%; }
 
+.posicion {
+  position: absolute; }
+
+.material-icons {
+  background-color: black;
+  position: relative;
+  margin-top: 2%; }
+
 /*# sourceMappingURL=main.css.map */
